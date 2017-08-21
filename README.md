@@ -29,14 +29,15 @@ You should:
 
 ---
 ## Setup
-1. In `~/muktek/labs`, create a directory for this assignment called `full-page-mfah`.
+1. In `~/muktek/labs`, create a directory for this assignment called `html-css-static-fullpage-mfah`.
 2. `cd` into the new assignment directory and create your project files & folders:
   - `index.html`
   - `css/`
     - `style.css`
 3. Download the images and unzip:
 ```
-curl https://raw.githubusercontent.com/muktek/Course-Guide/master/assignments/layout-html-css-mfah/image-files.zip > image-files.zip
+curl https://raw.githubusercontent.com/muktek/layout-html-css-mfah/image-files.zip > image-files.zip
+
 unzip image-files.zip
 ```
 
