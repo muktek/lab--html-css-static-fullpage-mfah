@@ -1,4 +1,4 @@
-# CSS Intermediate - Creating Full Page Responsive Layouts
+# LAB - HTML + CSS Static Full Page Site - MFAH
 
 ## Context
 The Museum of Fine Arts Houston wants to create a static webpage that shows their architectural history and future projects.  
