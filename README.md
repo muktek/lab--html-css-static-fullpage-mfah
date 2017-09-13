@@ -70,7 +70,7 @@ Create a site based on the mockup as shown below.
 
 ----
 
-##Adventurer Mode
+## Adventurer Mode
 Use media-queries to create a responsive site. The site should be one column on mobile screens (i.e. screen widths < 768px), and it should maintain the original layout on screen widths > 768px.
 
 Also note that the search box at the bottom right becomes hidden on < 768px.
