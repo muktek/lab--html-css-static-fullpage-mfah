@@ -27,23 +27,40 @@ You should:
 - a `style.css` file with the styles
 - a Github repository
 
+----
+
+## Setup Instructions
+
+1. In Terminal:
+  ```sh
+  #(1) create a directory for this lab called `html-css-static-fullpage-mfah` in `~/Documents/muktek/labs` and cd into it.
+  mkdir ~/Documents/muktek/labs/html-css-static-fullpage-mfah
+  cd ~/Documents/muktek/labs/html-css-static-fullpage-mfah
+
+  #(2) Download + unzip the image files for the project
+  curl https://raw.githubusercontent.com/muktek/layout-html-css-mfah/image-files.zip > image-files.zip
+
+  unzip image-files.zip
+
+  ```
+
+2. Create your project files and folders
+  ```
+  - index.html
+  |
+  + css/
+    |
+    - style.css
+  ```
+
+3. Use the `<link>` tag to link your `style.css` to your `index.html` in the `<head>` of your `index.html` file
+
+4. In your CSS, you will need to apply border-box sizing to all elements:
+  ```css
+  * { box-sizing: border-box }
+  ```
+
 ---
-## Setup
-1. In `~/muktek/labs`, create a directory for this assignment called `html-css-static-fullpage-mfah`.
-2. `cd` into the new assignment directory and create your project files & folders:
-  - `index.html`
-  - `css/`
-    - `style.css`
-3. Download the images and unzip:
-```
-curl https://raw.githubusercontent.com/muktek/layout-html-css-mfah/image-files.zip > image-files.zip
-
-unzip image-files.zip
-```
-
-
-
-<hr/>
 
 ## Normal Mode
 Create a site based on the mockup as shown below.
@@ -51,7 +68,7 @@ Create a site based on the mockup as shown below.
 ### The full-screen layout
 ![full](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/layout-html-css-mfah/mfah-fullscreen.gif)
 
-<hr>
+----
 
 ##Adventurer Mode
 Use media-queries to create a responsive site. The site should be one column on mobile screens (i.e. screen widths < 768px), and it should maintain the original layout on screen widths > 768px.
@@ -60,24 +77,19 @@ Also note that the search box at the bottom right becomes hidden on < 768px.
 
 ![mobile](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/layout-html-css-mfah/mfah-mobile-layout-mockup.png)
 
-<hr>
+----
 
 ## Additional Information
 #### Designer Specs
-- The font stack for the project is: Helvetica Neue, Helvetica, sans-serif
-- Blue fixed call-to-action in bottom-right background-color: #3A539B
-- Anchor tag color: #3E7FBB.
-- Red color: #DB4B38
+```
++ The font stack for the project is: Helvetica Neue, Helvetica, sans-serif
 
++ Blue fixed call-to-action component on bottom-right has background-color: #3A539B
+
++ Anchor tag color : #3E7FBB.
+
++ Red color is : #DB4B38
+```
 
 #### Copywriter's Text
 The **copywriter's text** can be found [here](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/layout-html-css-mfah/mfah-architecture-site-copy.txt).
-
-#### Suggested
-**NOTE: At the top of your stylesheet make sure you apply the style rule `box-sizing: border-box` to *all* elements**
-
-```css
-* {
-    box-sizing: border-box
-}
-```
