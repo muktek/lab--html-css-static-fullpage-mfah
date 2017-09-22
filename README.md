@@ -38,7 +38,7 @@ You should:
   cd ~/Documents/muktek/labs/html-css-static-fullpage-mfah
 
   #(2) Download + unzip the image files for the project
-  curl https://raw.githubusercontent.com/muktek/lab--html-css-static-fullpage-mfah/master/image-files > image-files.zip
+  curl https://raw.githubusercontent.com/muktek/lab--html-css-static-fullpage-mfah/master/image-files.zip > image-files.zip
 
   unzip image-files.zip
 
