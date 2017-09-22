@@ -40,6 +40,7 @@ You should:
   #(2) Download + unzip the image files for the project
   curl https://raw.githubusercontent.com/muktek/lab--html-css-static-fullpage-mfah/master/image-files.zip > image-files.zip
 
+  #(3) unzip the image files for the project
   unzip image-files.zip
 
   ```
