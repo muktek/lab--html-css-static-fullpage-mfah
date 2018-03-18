@@ -33,9 +33,9 @@ You should:
 
 1. In Terminal:
   ```sh
-  #(1) create a directory for this lab called `html-css-static-fullpage-mfah` in `~/Documents/muktek/labs` and cd into it.
-  mkdir ~/Documents/muktek/labs/html-css-static-fullpage-mfah
-  cd ~/Documents/muktek/labs/html-css-static-fullpage-mfah
+  #(1) create a directory for this lab called `html-css-static-fullpage-mfah` in `~/muktek/labs` and cd into it.
+  mkdir ~/muktek/labs/html-css-static-fullpage-mfah
+  cd ~/muktek/labs/html-css-static-fullpage-mfah
 
   #(2) Download + unzip the image files for the project
   curl https://raw.githubusercontent.com/muktek/lab--html-css-static-fullpage-mfah/master/image-files.zip > image-files.zip
