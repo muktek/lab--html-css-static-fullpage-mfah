@@ -91,11 +91,19 @@ Fonts
 --------
 Helvetica Neue, Helvetica, sans-serif
 
+Header Size
+--------
+h1 - 36px
+h2 - 30px
+h3 - 40px
 
 Colors
 --------------
+Font Color
+  #333333
+
 Anchor tag color
-  #3E7FBB.
+  #3E7FBB
 
 Blue fixed call-to-action component on bottom-right has background-color:
   #3A539B
