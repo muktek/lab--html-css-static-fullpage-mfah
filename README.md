@@ -66,8 +66,12 @@ You should:
 ## Normal Mode
 Create a site based on the mockup as shown below.
 
-### The full-screen layout
-![full](https://github.com/t3patterson/TIY-2016-Q3/blob/master/assignments/layout-html-css-mfah/mfah-fullscreen.gif)
+### Full screen layout
+![full](mfah-fullpage.gif)
+
+
+### Demo of fixed element
+![full](mfah-fullscreen.gif)
 
 ----
 
@@ -76,21 +80,29 @@ Use media-queries to create a responsive site. The site should be one column on 
 
 Also note that the search box at the bottom right becomes hidden on < 768px.
 
-![mobile](https://raw.githubusercontent.com/t3patterson/TIY-2016-Q3/master/assignments/layout-html-css-mfah/mfah-mobile-layout-mockup.png)
+![mobile](mfah-mobile-layout-mockup.png)
 
 ----
 
 ## Additional Information
 #### Designer Specs
 ```
-+ The font stack for the project is: Helvetica Neue, Helvetica, sans-serif
+Fonts
+--------
+Helvetica Neue, Helvetica, sans-serif
 
-+ Blue fixed call-to-action component on bottom-right has background-color: #3A539B
 
-+ Anchor tag color : #3E7FBB.
+Colors
+--------------
+Anchor tag color
+  #3E7FBB.
 
-+ Red color is : #DB4B38
+Blue fixed call-to-action component on bottom-right has background-color:
+  #3A539B
+
+Red icons color
+  #DB4B38
 ```
 
 #### Copywriter's Text
-The **copywriter's text** can be found [here](https://github.com/TIY-Charleston-Front-End-Engineering/Course-Guide/blob/master/assignments/layout-html-css-mfah/mfah-architecture-site-copy.txt).
+The **copywriter's text** can be found [here](mfah-architecture-site-copy.txt).
