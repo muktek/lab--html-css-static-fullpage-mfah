@@ -67,7 +67,7 @@ You should:
 Create a site based on the mockup as shown below.
 
 ### Full screen layout
-![full](mfah-fullpage.gif)
+![full](mfah-fullpage.png)
 
 
 ### Demo of fixed element
