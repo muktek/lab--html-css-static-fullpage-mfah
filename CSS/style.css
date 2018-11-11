@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+
+}
+
+* {
+    outline: 1px solid red;
+}
+
+.grid {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: calc(100% / 2);
+    padding: 8px;
+}
+
+.double {
+    width: calc(calc(100% / 2) * 2);
+}
+
+header {
+    background-color: black;
+}
+
+img {
+    background-color: black;
+    width: 50%;
+    height: 55px;
+    display: block;
+}
+
+nav {
+    margin: 0;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    padding: 8px;
+}
+
+.second a {
+    padding: 10px;
+}
