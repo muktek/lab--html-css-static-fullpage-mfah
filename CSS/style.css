@@ -7,6 +7,7 @@
 body {
     margin: 0;
     font-family: Helvetica Neue, Helvetica, sans-serif;
+    color: #333333;
 
 }
 
@@ -42,15 +43,15 @@ header img {
     background-color: black;
     width: 50%;
     width: 25%;
-    height: 50%;
+    height: 30%;
 }
 
 header img.column.one{
-    width: 15%;
+    width: 10%;
 }
 
 header img.column.two{
-    width: 60%;
+    width: 50%;
 }
 
 
@@ -70,4 +71,72 @@ nav a {
 
 h1{
     font-size: 36px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+#link{
+    color: #3A539B;
+}
+
+.grow{
+    /* border: 4px solid purple; */
+    width: 65%;
+    
+}
+
+.column.double div a{
+    background-color: #F9F7BE;
+    margin: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#mfah{
+    background-color: lightblue;
+    color: black;
+}
+
+.rightcol{
+    /* border: 4px solid purple; */
+    width: 35%;
+    justify-content: flex-end;
+}
+
+.rightcol div img{
+    justify-items: flex-start;
+
+}
+
+.rightcol div{
+    width: 100%;
+}
+.rightcol div p{
+    justify-items: flex-end;
+    width: 50%;
+}
+
+footer div a{
+    width: 100%;
+    text-decoration: none;
+    margin: 5%;
+}
+i{
+    color: #DB4B38;
+}
+
+#fixedBox{
+    height: 100px;
+    width: 300px;
+    background-color: #3A539B;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
