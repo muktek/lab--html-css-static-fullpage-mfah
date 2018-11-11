@@ -22,26 +22,40 @@ body {
 
 .column {
     width: calc(100% / 2);
-    padding: 8px;
+   
 }
 
 .double {
     width: calc(calc(100% / 2) * 2);
 }
 
+.triple{
+    width: 55%;
+}
+
 header {
     background-color: black;
+    height: 50%;
 }
 
-img {
+header img {
     background-color: black;
     width: 50%;
-    height: 55px;
-    display: block;
+    width: 25%;
+    height: 50%;
 }
 
+header img.column.one{
+    width: 15%;
+}
+
+header img.column.two{
+    width: 60%;
+}
+
+
 nav {
-    margin: 0;
+    padding: 1%;
     background-color: black;
 }
 
@@ -52,4 +66,8 @@ nav a {
 
 .second a {
     padding: 10px;
+}
+
+h1{
+    font-size: 36px;
 }
